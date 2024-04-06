@@ -35,7 +35,7 @@ function TableCoin({ coins, isLoading }) {
 
 export default TableCoin;
 
-const TableRow = ({ coin: { name, image, symbol, total_volume, current_price, price_change_percentage_24h: price_change } }) => {
+const TableRow = ({ coin: { name, image, symbol, total_volume, current_price, price_change_percentage_24h: price_change }, currency }) => {
   return (
     <tr>
       <td>
